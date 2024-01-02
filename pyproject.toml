@@ -3,3 +3,26 @@ line-length = 120
 target-version = ['py311']
 include = '\.pyi?$'
 extend-exclude = ''''''
+
+[tool.pylint.MASTER]
+fail-under = '10.0'
+ignore = '.git'
+ignore-patterns = ''
+jobs = 0
+suggestion-mode = 'yes'
+disable = '''C0114, # missing-module-docstring'''
+
+[tool.pylint.FORMAT]
+max-line-length = 120
+
+[tool.pylint.SIMILARITIES]
+ignore-comments = 'yes'
+ignore-docstrings = 'yes'
+ignore-imports = 'no'
+min-similarity-lines = 4
+
+[tool.pylint.STRING]
+check-quote-consistency = 'yes'
+
+[tool.pylint.IMPORTS]
+allow-wildcard-with-all = 'no'
