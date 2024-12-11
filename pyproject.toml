@@ -1,6 +1,6 @@
 [tool.black]
 line-length = 120
-target-version = ['py311']
+target-version = ['py313']
 include = '\.pyi?$'
 extend-exclude = ''''''
 
@@ -28,7 +28,7 @@ check-quote-consistency = 'yes'
 allow-wildcard-with-all = 'no'
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "3.13"
 warn_return_any = true
 warn_unused_configs = true
 exclude = [
