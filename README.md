@@ -14,3 +14,5 @@ For development:
 ## to jest test
 
 lokalna zmiana
+
+druga zmiana
