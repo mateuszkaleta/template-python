@@ -10,3 +10,7 @@ For development:
 2. run `pip install -r dev-requirements.txt`.
 3. run `source .venv\Scripts\activate`
 4. run `pre-commit install`
+
+## to jest test
+
+lokalna zmiana
